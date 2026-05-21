@@ -19,6 +19,9 @@ public class Producto {
         this.idProducto = idProducto;
     }
 
+    public Producto() {
+    }
+
     public Producto(String descripcion, Double precio, Integer existencia) {
         this.descripcion = descripcion;
         this.precio = precio;
